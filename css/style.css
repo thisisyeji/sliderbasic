@@ -1,0 +1,113 @@
+/* reset */
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+section .panel {
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+section .panel li {
+  width: 20%;
+  height: 100%;
+  margin-left: 0%;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section .panel li span {
+  font: bold 8vmin/1 "arial";
+  font-family: "Permanent Marker", cursive;
+  margin-top: 10%;
+}
+section .panel li:nth-of-type(1) {
+  background-image: url(../imgs/choco.png);
+  background-color: rgb(125, 75, 39);
+}
+section .panel li:nth-of-type(1) span {
+  color: rgb(229, 149, 93);
+}
+section .panel li:nth-of-type(2) {
+  background-image: url(../imgs/yellow.png);
+  background-color: rgb(252, 226, 59);
+}
+section .panel li:nth-of-type(2) span {
+  color: rgb(249, 246, 197);
+}
+section .panel li:nth-of-type(3) {
+  background-image: url(../imgs/melon.png);
+  background-color: rgb(212, 251, 144);
+}
+section .panel li:nth-of-type(3) span {
+  color: rgb(52, 198, 3);
+}
+section .panel li:nth-of-type(4) {
+  background-image: url(../imgs/mint.png);
+  background-color: rgb(155, 250, 239);
+}
+section .panel li:nth-of-type(4) span {
+  color: rgb(75, 135, 255);
+}
+section .panel li:nth-of-type(5) {
+  background-image: url(../imgs/cherry.png);
+  background-color: rgb(255, 188, 246);
+}
+section .panel li:nth-of-type(5) span {
+  color: rgb(219, 29, 162);
+}
+section .btns {
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  padding: 0 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+section .btns li {
+  width: 15vw;
+  height: 50px;
+  display: flex;
+  text-align: center;
+}
+section .btns li a {
+  width: 100%;
+  height: 100%;
+  color: #000;
+  font-size: 18px;
+  line-height: 50px;
+  border: 1px solid #000;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: 0.5s;
+}
+section .btns li.on a {
+  color: #111;
+  font-size: 20px;
+  background-color: rgba(250, 248, 248, 0.8);
+  transform: translateY(-20px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*# sourceMappingURL=style.css.map */
