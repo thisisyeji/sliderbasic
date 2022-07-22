@@ -35,6 +35,7 @@ section .panel li {
   justify-content: center;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 section .panel li span {
   font: bold 8vmin/1 "arial";
