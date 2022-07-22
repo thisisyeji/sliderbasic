@@ -102,7 +102,7 @@ section .btns li a {
 section .btns li.on {
   transform: translateY(-20px);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 section .btns li.on a {
   color: #111;
